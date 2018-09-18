@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+    {% include head.html %}
+
+
+
+    <body >
+
+
+          {% include header.html %}
+
+
+          <div class="fluid-container">
+
+  <div class="row">
+
+
+      <article id="portal-column-content" class="cell width-3:5  col-sm-10 mbottom-large">
+          <div id="viewlet-above-content">
+          </div>
+
+
+          <div class="">
+
+
+              <div class="alert alert-info alert-dismissible fade-in" role="alert" id="kssPortalMessage" style="display:none">
+                <button aria-label="Close" data-dismiss="alert" class="close" type="button"><span aria-hidden="true">×</span></button>
+                <strong>Info</strong>
+              </div>
+
+              <div id="content">
+
+
+                   <div id="viewlet-above-content-title"></div>
+                   <hr>
+                   <h1 id="parent-fieldname-title" class="documentFirstHeading">
+                      Ghent University Text-to-Knowledge Group (T2K)
+                   </h1>
+
+               {{ content }}
+
+              </div>
+
+              <div id="viewlet-below-content">
+              </div>
+      </article>
+
+    </div>
+
+  {% include footer.html %}
+
+
+</body>
+</html>
