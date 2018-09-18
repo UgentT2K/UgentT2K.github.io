@@ -1,5 +1,6 @@
 # UGentNLP_website
-Repository of the homepage of the UGent natural language processing group Text-to-Knowledge (T2K).
+Repository of the [homepage of the UGent natural language processing group Text-to-Knowledge (T2K) ](https://UgentT2K.github.io).
+
 
 To run locally, jekyll needs to be installed, after which the site can be locally served with
 `jekyll serve`
