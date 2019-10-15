@@ -1,0 +1,3 @@
+pybtex
+unidecode
+pylatexenc
