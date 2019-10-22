@@ -106,7 +106,7 @@ def format_entry(bibentry):
         result = '\t<li>'
         result += authors_string + '. ' if len(authors_string) > 0 else ''
         result += '&nbsp;<i><font color="blue">"' + unicode_to_html(title_string.strip()) + '"</font></i>' if len(title_string) > 0 else ''
-        result += ',&nbsp;<b>' + unicode_to_html(target_string) + '</b>' if len(target_string) > 0 else ''
+        result += ',&nbsp; <b>' + unicode_to_html(target_string) + '</b>' if len(target_string) > 0 else ''
         result += ',&nbsp;' + unicode_to_html(year_string) + '.' if len(year_string) > 0 else '.'
         result += online
         result += pubtype
