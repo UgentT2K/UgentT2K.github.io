@@ -151,16 +151,17 @@
 
 @Article{Demeester2015IR,
   author          = {Demeester, Thomas and Aly, Robin and Hiemstra, Djoerd and Nguyen, Dong and Develder, Chris},
-  title           = {Predicting relevance based on assessor disagreement: Analysis and practical applications for search evaluation},
   journal         = {Inf. Retr.},
+  title           = {Predicting relevance based on assessor disagreement: Analysis and practical applications for search evaluation},
   year            = {2016},
-  volume          = {19},
-  number          = {3},
   month           = {Jun.},
+  number          = {3},
   pages           = {284--312},
-  doi             = {10.1007/s10791-015-9275-x},
+  volume          = {19},
   abstract        = {Evaluation of search engines relies on assessments of search results for selected test queries, from which we would ideally like to draw conclusions in terms of relevance of the results for general (e.g., future, unknown) users. In practice however, most evaluation scenarios only allow us to conclusively determine the relevance towards the particular assessor that provided the judgments. A factor that cannot be ignored when extending conclusions made from assessors towards users, is the possible disagreement on relevance, assuming that a single gold truth label does not exist. This paper presents and analyzes the predicted relevance model (PRM), which allows predicting a particular result’s relevance for a random user, based on an observed assessment and knowledge on the average disagreement between assessors. With the PRM, existing evaluation metrics designed to measure binary assessor relevance, can be transformed into more robust and effectively graded measures that evaluate relevance towards a random user. It also leads to a principled way of quantifying multiple graded or categorical relevance levels for use as gains in established graded relevance measures, such as normalized discounted cumulative gain, which nowadays often use heuristic and data-independent gain values. Given a set of test topics with graded relevance judgments, the PRM allows evaluating systems on different scenarios, such as their capability of retrieving top results, or how well they are able to filter out non-relevant ones. Its use in actual evaluation scenarios is illustrated on several information retrieval test collections.},
   area            = {IR},
+  arxiv           = {https://arxiv.org/abs/1511.07237},
+  doi             = {10.1007/s10791-015-9275-x},
   keywords        = {Assessor disagreement, Graded relevance assessments for information retrieval, Information retrieval evaluation, Test collections},
   numpages        = {29},
   publicationtype = {A1},
@@ -974,6 +975,18 @@ In this paper, we discuss the main components of our end-to-end system, capable 
   doi             = {10.1007/978-3-642-23318-0_16},
   publicationtype = {P1},
   timestamp       = {2011.09.12},
+}
+
+@InProceedings{jiang2020aacl,
+  author          = {Jiang, Yiwei and Deleu, Johannes ad Demeester, Thomas and Develder, Chris},
+  booktitle       = {Proc. 1st Conf. Asia-Pacific Chapter of the Assoc. Comput. Linguist. and 10th Int. Joint Conf. Natural Lang. Processing (AACL-IJCNLP 2020)},
+  title           = {Recipe instruction semantics corpus (RISeC): Resolving semantic structure and zero anaphora in recipes},
+  year            = {2020},
+  month           = {4--7 Dec.},
+  abstract        = {We propose a newly annotated dataset for information extraction on recipes. Unlike previous approaches to machine comprehension of procedural texts, we avoid a priori pre-defining domain-specific predicates to recognize (e.g., the primitive instructions in MILK) and focus on basic understanding of the expressed semantics rather than directly reduce them to a simplified state representation (e.g., ProPara). We thus frame the semantic comprehension of procedural text such as recipes, as fairly generic NLP subtasks, covering (i) entity recognition (ingredients, tools and actions), (ii) relation extraction (what ingredients and tools are involved in the actions), and (iii) zero anaphora resolution (link actions to implicit arguments, e.g., results from previous recipe steps). Further, our Recipe Instruction Semantic Corpus (RISeC) dataset includes textual descriptions for the zero anaphora, to facilitate language generation thereof. Besides the dataset itself, we contribute a pipeline neural architecture that addresses entity and relation extraction as well as identification of zero anaphora. These basic building blocks can facilitate more advanced downstream applications (e.g., question answering, conversational agents).},
+  area            = {IR},
+  publicationtype = {P1},
+  timestamp       = {2020.12.04},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
