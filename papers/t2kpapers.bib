@@ -980,13 +980,29 @@ In this paper, we discuss the main components of our end-to-end system, capable 
 @InProceedings{jiang2020aacl,
   author          = {Jiang, Yiwei and Deleu, Johannes and Demeester, Thomas and Develder, Chris},
   booktitle       = {Proc. 1st Conf. Asia-Pacific Chapter of the Assoc. Comput. Linguist. and 10th Int. Joint Conf. Natural Lang. Processing (AACL-IJCNLP 2020)},
-  title           = {Recipe instruction semantics corpus (RISeC): Resolving semantic structure and zero anaphora in recipes},
-  year            = {2020},
-  month           = {4--7 Dec.},
+  title           = {Recipe instruction semantics corpus ({RISeC}): {R}esolving semantic structure and zero anaphora in recipes},
+  pages           = {821--826},
+  url             = {https://www.aclweb.org/anthology/2020.aacl-main.82},
   abstract        = {We propose a newly annotated dataset for information extraction on recipes. Unlike previous approaches to machine comprehension of procedural texts, we avoid a priori pre-defining domain-specific predicates to recognize (e.g., the primitive instructions in MILK) and focus on basic understanding of the expressed semantics rather than directly reduce them to a simplified state representation (e.g., ProPara). We thus frame the semantic comprehension of procedural text such as recipes, as fairly generic NLP subtasks, covering (i) entity recognition (ingredients, tools and actions), (ii) relation extraction (what ingredients and tools are involved in the actions), and (iii) zero anaphora resolution (link actions to implicit arguments, e.g., results from previous recipe steps). Further, our Recipe Instruction Semantic Corpus (RISeC) dataset includes textual descriptions for the zero anaphora, to facilitate language generation thereof. Besides the dataset itself, we contribute a pipeline neural architecture that addresses entity and relation extraction as well as identification of zero anaphora. These basic building blocks can facilitate more advanced downstream applications (e.g., question answering, conversational agents).},
+  address         = {Online},
   area            = {IR},
+  month           = {4--7 Dec.},
   publicationtype = {P1},
   timestamp       = {2020.12.04},
+  year            = {2020},
+}
+
+@Article{zaporojets2021eswa,
+  author          = {Zaporojets, Klim and Bekoulis, Giannis and Deleu, Johannes and Demeester, Thomas and Develder, Chris},
+  journaltitle    = {Expert Syst. Appl.},
+  title           = {Solving arithmetic word problems by scoring equations with recursive neural networks},
+  doi             = {10.1016/j.eswa.2021.114704},
+  abstract        = {Solving arithmetic word problems is a cornerstone task in assessing language understanding and reasoning capabilities in NLP systems. Recent works use automatic extraction and ranking of candidate solution equations providing the answer to arithmetic word problems. In this work, we explore novel approaches to score such candidate solution equations using tree-structured recursive neural network (Tree-RNN) configurations. The advantage of this Tree-RNN approach over using more established sequential representations, is that it can naturally capture the structure of the equations. Our proposed method consists of transforming the mathematical expression of the equation into an expression tree. Further, we encode this tree into a Tree-RNN by using different Tree-LSTM architectures. Experimental results show that our proposed method (i) improves overall performance with more than 3% accuracy points compared to previous state-of-the-art, and with over 15% points on a subset of problems that require more complex reasoning, and (ii) outperforms sequential LSTMs by 4% accuracy points on such more complex problems.},
+  area            = {IR},
+  code            = {https://github.com/klimzaporojets/arithmetic-word-problems/},
+  publicationtype = {A1},
+  timestamp       = {2021.02.24},
+  year            = {2021},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
