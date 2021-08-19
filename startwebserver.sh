@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # version 3
-nohup python -m http.server 9052 &
+nohup python -m http.server 9050 &
