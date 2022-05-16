@@ -961,21 +961,6 @@ In this paper, we discuss the main components of our end-to-end system, capable 
   timestamp       = {2012.02.23},
 }
 
-@InProceedings{aly2011,
-  author          = {Aly, Robin and Demeester, T.},
-  booktitle       = {Proc. 3rd Conf. Theory Inf. Retr.},
-  title           = {Towards a better understanding of the relationship between probabilistic models in {IR}},
-  year            = {2011},
-  address         = {Bertorino, Italy},
-  month           = {12--14 Sep.},
-  pages           = {164--175},
-  abstract        = {Probability of relevance (PR) models are generally assumed to implement the Probability Ranking Principle (PRP) of IR, and recent publications claim that PR models and language models are similar. However, a careful analysis reveals two gaps in the chain of reasoning behind this statement. First, the PRP considers the relevance of particular documents, whereas PR models consider the relevance of any query-document pair. Second, unlike PR models, language models consider draws of terms and documents. We bridge the first gap by showing how the probability measure of PR models can be used to define the probabilistic model of the PRP. Furthermore, we argue that given the differences between PR models and language models, the second gap cannot be bridged at the probabilistic model level. We instead define a new PR model based on logistic regression, which has a similar score function to the one of the query likelihood model. The performance of both models is strongly correlated, hence providing a bridge for the second gap at the functional and ranking level. Understanding language models in relation with logistic regression models opens ample new research directions which we propose as future work.},
-  area            = {IR},
-  doi             = {10.1007/978-3-642-23318-0_16},
-  publicationtype = {P1},
-  timestamp       = {2011.09.12},
-}
-
 @InProceedings{decorte2021feast,
   author          = {Decorte, Jens-Joris and Van Hautte, Jeroen and Demeester, Thomas and Develder, Chris},
   booktitle       = {Proc. Int. Workshop Fair, Effective and Sustainable Talent at ECML-PKDD (FEAST 2021)},
@@ -1082,13 +1067,26 @@ In this paper, we discuss the main components of our end-to-end system, capable 
   url             = {https://aclanthology.org/2021.emnlp-main.792/},
 }
 
+@InProceedings{jiang2022acl,
+  author          = {Jiang, Yiwei and Hadifar, Amir and Deleu, Johannes and Demeester, Thomas and Develder, Chris},
+  booktitle       = {Proc. DialDoc Workshop at ACL 2022},
+  title           = {UGent-T2K at the 2nd DialDoc Shared Task:A Retrieval-Focused Dialog System Grounded in Multiple Documents},
+  year            = {2022},
+  address         = {Dublin, Ireland},
+  pages           = {1--8},
+  abstract        = {This work presents the contribution from the text-to-Knowledge team of Ghent University (UGent-T2K)1 to the MultiDoc2Dial shared task on modeling dialogs grounded in multiple documents. We propose a pipeline system, comprising (1) document retrieval, (2) passage retrieval, and (3) response generation. We engineered these individual components mainly by, for (1)-(2), combining multiple ranking models and adding a final LambdaMART reranker, and, for (3), by adopting a Fusion-in-Decoder (FiD) model. We thus significantly boost the baseline system’s performance (over +10 points for both F1 and SacreBLEU). Further, error analysis reveals two major failure cases, to be addressed in future work: (i) in case of topic shift within the dialog, retrieval often fails to select the correct grounding document(s), and (ii) generation sometimes fails to use the correctly retrieved grounding passage.},
+  area            = {IR},
+  date            = {May 26},
+  publicationtype = {P1},
+  timestamp       = {2022.05.26},
+}
+
 @InProceedings{zaporojets2022acl,
   author          = {Zaporojets, Klim and Deleu, Johannes and Jiang, Yiwei and Demeester, Thomas and Develder, Chris},
   booktitle       = {Proc. 60th Annual Meet. Assoc. Comput. Linguist. (ACL 2022)},
   title           = {Towards consistent document-level entity linking: Joint Models for entity linking and coreference resolution},
   year            = {2022},
   address         = {Dublin, Ireland},
-  month           = {22-27 May},
   pages           = {1--7},
   abstract        = {We consider the task of document-level entity linking (EL), where it is important to make onsistent decisions for entity mentions over the full document jointly. We aim to leverage explicit “connections” among mentions within the document itself: we propose to join EL and coreference resolution (coref) in a single structured prediction task over directed trees and use a globally normalized model to solve it. This contrasts with related works where two separate models are trained for each of the tasks and additional logic is required to merge the outputs. Experimental results on two datasets show a boost of up to +5% F1-score on both coref and EL tasks, compared to their standalone counterparts. For a subset of hard cases, with individual mentions lacking the correct EL in their candidate entity list, we obtain a +50% increase in accuracy.},
   area            = {IR},
@@ -1096,6 +1094,21 @@ In this paper, we discuss the main components of our end-to-end system, capable 
   code            = {https://github.com/klimzaporojets/consistent-EL},
   publicationtype = {C1},
   timestamp       = {2022.05.22},
+}
+
+@InProceedings{aly2011,
+  author          = {Aly, Robin and Demeester, T.},
+  booktitle       = {Proc. 3rd Conf. Theory Inf. Retr.},
+  title           = {Towards a better understanding of the relationship between probabilistic models in {IR}},
+  year            = {2011},
+  address         = {Bertorino, Italy},
+  month           = {12--14 Sep.},
+  pages           = {164--175},
+  abstract        = {Probability of relevance (PR) models are generally assumed to implement the Probability Ranking Principle (PRP) of IR, and recent publications claim that PR models and language models are similar. However, a careful analysis reveals two gaps in the chain of reasoning behind this statement. First, the PRP considers the relevance of particular documents, whereas PR models consider the relevance of any query-document pair. Second, unlike PR models, language models consider draws of terms and documents. We bridge the first gap by showing how the probability measure of PR models can be used to define the probabilistic model of the PRP. Furthermore, we argue that given the differences between PR models and language models, the second gap cannot be bridged at the probabilistic model level. We instead define a new PR model based on logistic regression, which has a similar score function to the one of the query likelihood model. The performance of both models is strongly correlated, hence providing a bridge for the second gap at the functional and ranking level. Understanding language models in relation with logistic regression models opens ample new research directions which we propose as future work.},
+  area            = {IR},
+  doi             = {10.1007/978-3-642-23318-0_16},
+  publicationtype = {P1},
+  timestamp       = {2011.09.12},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
