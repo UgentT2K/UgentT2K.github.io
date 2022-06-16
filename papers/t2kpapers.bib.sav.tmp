@@ -1084,7 +1084,7 @@ In this paper, we discuss the main components of our end-to-end system, capable 
 
 @Article{jiang2022cookdial,
   author          = {Jiang, Yiwei and Zaporojets, Klim and Deleu, Johannes and Demeester, Thomas and Develder, Chris},
-  journal         = {Appl. Energy},
+  journal         = {Appl. Intelligence},
   title           = {{CookDial}: {A} dataset for task-oriented dialogs grounded in procedural documents},
   year            = {2022},
   month           = {Jun.},
@@ -1119,4 +1119,4 @@ In this paper, we discuss the main components of our end-to-end system, capable 
   address         = {Dublin, Ireland},
   month           = {22--27 May},
   pages           = {1--7},
-  abstract        = {We consider the task of document-level entity linking (EL), where it is important to make onsistent decisions for entity mentions over the full document jointly. We aim to leverage explicit “connections” among mentions within the document itself: we propose to join EL and coreference resolution (coref) in a single structured prediction task over directed trees and use a globally normalized model to solve it. T
+  abstract        = {We consider the task of document-level entity linking (EL), where it is important to make onsistent decisions for entity mentions over the full document jointly. We aim to leverage explicit “connections” among mentions within the document itself: we propose to join EL and coreference resolution (coref) in a single structured prediction task over directed trees and use a globally normalized model to solve
