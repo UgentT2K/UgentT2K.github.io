@@ -1090,6 +1090,7 @@ In this paper, we discuss the main components of our end-to-end system, capable 
   month           = {Jun.},
   abstract        = {This work presents a new dialog dataset, CookDial, that facilitates research on task-oriented dialog systems with procedural knowledge understanding. The corpus contains 260 human-to-human task-oriented dialogs in which an agent, given a recipe document, guides the user to cook a dish. Dialogs in CookDial exhibit two unique features: (i) procedural alignment between the dialog flow and supporting document; (ii) complex agent decision-making that involves segmenting long sentences, paraphrasing hard instructions and resolving coreference in the dialog context. In addition, we identify three challenging (sub)tasks in the assumed task-oriented dialog system: (1) User Question Understanding, (2) Agent Action Frame Prediction, and (3) Agent Response Generation. For each of these tasks, we develop a neural baseline model, which we evaluate on the CookDial dataset. We publicly release the CookDial dataset, comprising rich annotations of both dialogs and recipe documents, to stimulate further research on domain-specific document-grounded dialog systems.},
   area            = {IR},
+  arxiv           = {https://arxiv.org/abs/2206.08723},
   code            = {https://github.com/YiweiJiang2015/CookDial},
   doi             = {10.1007/s10489-022-03692-0},
   publicationtype = {A1},
@@ -1119,4 +1120,4 @@ In this paper, we discuss the main components of our end-to-end system, capable 
   address         = {Dublin, Ireland},
   month           = {22--27 May},
   pages           = {1--7},
-  abstract        = {We consider the task of document-level entity linking (EL), where it is important to make onsistent decisions for entity mentions over the full document jointly. We aim to leverage explicit “connections” among mentions within the document itself: we propose to join EL and coreference resolution (coref) in a single structured prediction task over directed trees and use a globally normalized model to solve
+  abstract        = {We consider the task of document-level entity linking (EL), where it is important to make onsistent decisions for entity mentions over the full document jointly. We aim to leverage explicit “connections” among mentions within the document itself: we propose to join EL and coreference resolution (coref) in a single structured prediction task over dir
