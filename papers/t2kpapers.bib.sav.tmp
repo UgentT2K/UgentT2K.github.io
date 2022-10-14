@@ -1107,9 +1107,9 @@ In this paper, we discuss the main components of our end-to-end system, capable 
   pages           = {1--8},
   abstract        = {This work presents the contribution from the text-to-Knowledge team of Ghent University (UGent-T2K)1 to the MultiDoc2Dial shared task on modeling dialogs grounded in multiple documents. We propose a pipeline system, comprising (1) document retrieval, (2) passage retrieval, and (3) response generation. We engineered these individual components mainly by, for (1)-(2), combining multiple ranking models and adding a final LambdaMART reranker, and, for (3), by adopting a Fusion-in-Decoder (FiD) model. We thus significantly boost the baseline system’s performance (over +10 points for both F1 and SacreBLEU). Further, error analysis reveals two major failure cases, to be addressed in future work: (i) in case of topic shift within the dialog, retrieval often fails to select the correct grounding document(s), and (ii) generation sometimes fails to use the correctly retrieved grounding passage.},
   area            = {IR},
+  doi             = {10.18653/v1/2022.dialdoc-1.12},
   publicationtype = {P1},
   timestamp       = {2022.05.26},
-  url             = {https://aclanthology.org/2022.dialdoc-1.12/},
 }
 
 @InProceedings{zaporojets2022acl,
@@ -1120,4 +1120,4 @@ In this paper, we discuss the main components of our end-to-end system, capable 
   address         = {Dublin, Ireland},
   month           = {22--27 May},
   pages           = {1--7},
-  abstract        = {We consider the task of document-level entity linking (EL), where it is important to make onsistent decisions for entity mentions over the full document jointly. We aim to leverage explicit “connections” among mentions within the document itself: we propose to join EL and coreference resolution (coref) in a single structured prediction task over dir
+  abstract        = {We consider the task of document-level entity linking (EL), where it is important to make onsistent decisions for entity mentions over the full document jointly. We aim to leverage explicit “connections” among mentions within the document itself: we propose to join EL and coreference resolution (coref) in a single structured prediction task over directed trees an
