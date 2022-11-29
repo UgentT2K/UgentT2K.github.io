@@ -1124,9 +1124,25 @@ In this paper, we discuss the main components of our end-to-end system, capable 
   area            = {IR},
   arxiv           = {https://arxiv.org/abs/2108.13530},
   code            = {https://github.com/klimzaporojets/consistent-EL},
+  doi             = {10.18653/v1/2022.acl-short.88},
   publicationtype = {C1},
   timestamp       = {2022.05.22},
-  url             = {https://aclanthology.org/2022.acl-short.88/},
+}
+
+@InProceedings{labat2022,
+  author    = {Labat, Sofie and Hadifar, Amir and Demeester, Thomas and Hoste, V\'{e}ronique},
+  booktitle = {Proc. 8th Workshop Noisy User-generated Text (W-NUT 2022) at COLING 2022},
+  title     = {An emotional journey: {D}etecting emotion trajectories in {D}utch customer service dialogues},
+  year      = {2022},
+  address   = {Geongjy, Republic of Korea},
+  month     = {Oct. 16},
+  pages     = {106--112},
+  abstract  = {The ability to track fine-grained emotions in customer service dialogues has many real-world applications, but has not been studied extensively. This paper measures the potential of prediction models on that task, based on a real-world dataset of Dutch Twitter conversations in the domain of customer service. We find that modeling emotion trajectories has a small, but measurable benefit compared to predictions based on isolated turns. The models used in our study are shown to generalize well to different companies and economic sectors.},
+  area      = {IR},
+  code      = {https://github.com/hadifar/dutchemotiondetection},
+  pubtype   = {C1},
+  timestamp = {2022.10.16},
+  url       = {https://aclanthology.org/2022.wnut-1.12/},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
