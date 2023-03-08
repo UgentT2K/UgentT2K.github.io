@@ -37,48 +37,50 @@
     </nav>
       </div> <!-- twelve columns -->
       </div> <!-- end row -->
-<div id="deraedt2022emnlp" class="row add-bottom pubentry pub2022 pubir pubinproceedings">
+<div id="hadifar2023access" class="row add-bottom pubentry pub2023 pubir pubarticle">
      <div class="one column">
-     <h3 class="inproceedings"><span>pubinproceedings</span>
+     <h3 class="article"><span>pubarticle</span>
      </div>
      <div class="eleven columns ir">
-     <pubauth>M. De Raedt, F. Godin, C. Develder and T. Demeester</pubauth>,
-<pubtitle><a href="papers/2022/deraedt2022emnlp.pdf" target="_blank">"Robustifying sentiment classification by maximally exploiting few counterfactuals"</a></pubtitle>, in <pubconf>Proc. Conf. Empirical Methods in Natural Lang. Processing (EMNLP 2022)</pubconf>, Abu Dhabi, UAE, 7-11 Dec. <pubyear>2022</pubyear>.
+     <pubauth>A. Hadifar, S.K. Bitew, J. Deleu, C. Develder and T. Demeester</pubauth>,
+<pubtitle><a href="papers/2023/hadifar2023access.pdf" target="_blank">"EduQG: A multi-format multiple-choice dataset for the educational domain"</a></pubtitle>, <pubjournal>IEEE Access</pubjournal>, Vol. 11, <pubyear>2023</pubyear>, pp. 20885-20896.
     <ul class="file-links">
-               <li><a href="papers/2022/deraedt2022emnlp.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a></li>
+               <li><a href="papers/2023/hadifar2023access.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a></li>
+           <li><a href="https://doi.org/10.1109/ACCESS.2023.3248790" target="_blank"><i class="fa fa-external-link"></i> DOI</a></li>
            
-           
-               <li><a class="popup-with-zoom-anim" href="#deraedt2022emnlp-abstract"><i class="fa fa-eye"></i> Abstract</a></li>
-           <li><a class="popup-with-zoom-anim" href="#deraedt2022emnlp-bibtex"><i class="fa fa-bookmark-o"></i> BibTeX</a></li>
-         <li><a href="https://arxiv.org/abs/2210.11805" target="_blank"><i class="ai ai-arxiv"></i> arXiv</a></li>
-         <li><a href="https://github.com/maarten-deraedt/EMNLP2022-robustifying-sentiment-classification" target="_blank"><i class="fa fa-github"></i> Code</a></li>
+               <li><a class="popup-with-zoom-anim" href="#hadifar2023access-abstract"><i class="fa fa-eye"></i> Abstract</a></li>
+           <li><a class="popup-with-zoom-anim" href="#hadifar2023access-bibtex"><i class="fa fa-bookmark-o"></i> BibTeX</a></li>
+         
+         <li><a href="https://github.com/hadifar/question-generation" target="_blank"><i class="fa fa-github"></i> Code</a></li>
          
     </ul>
      </div>
-     <div id="deraedt2022emnlp-abstract" class="pubabstract zoom-anim-dialog mfp-hide">
-        <h2>Robustifying sentiment classification by maximally exploiting few counterfactuals</h2>
-        <h4>M. De Raedt, F. Godin, C. Develder and T. Demeester</h4>
-        <br>in <pubconf>Proc. Conf. Empirical Methods in Natural Lang. Processing (EMNLP 2022)</pubconf>, Abu Dhabi, UAE, 7-11 Dec. <pubyear>2022</pubyear>.
+     <div id="hadifar2023access-abstract" class="pubabstract zoom-anim-dialog mfp-hide">
+        <h2>EduQG: A multi-format multiple-choice dataset for the educational domain</h2>
+        <h4>A. Hadifar, S.K. Bitew, J. Deleu, C. Develder and T. Demeester</h4>
+        <br><pubjournal>IEEE Access</pubjournal>, Vol. 11, <pubyear>2023</pubyear>, pp. 20885-20896.
         <br><br>
-        <p>For text classification tasks, finetuned language models perform remarkably well. Yet, they tend to rely on spurious patterns in training data, thus limiting their performance on out-of-distribution (OOD) test data. Among recent models aiming to avoid this spurious pattern problem, adding extra counterfactual samples to the training data has proven to be very effective. Yet, counterfactual data generation is costly since it relies on human annotation. Thus, we propose a novel solution that only requires annotation of a small fraction (e.g., 1%) of the original training data, and uses automatic generation of extra counterfactuals in an encoding vector space. We demonstrate the effectiveness of our approach in sentiment classification, using IMDb data for training and other sets for OOD tests (i.e., Amazon, SemEval and Yelp). We achieve noticeable accuracy improvements by adding only 1% manual counterfactuals: +3% compared to adding +100% in-distribution training samples, +1.3% compared to alternate counterfactual approaches.</p>
+        <p>Natural language processing technology has made significant progress in recent years, fuelled by increasingly powerful general language models. This has also inspired a sizeable body of work targeted specifically towards the educational domain, where the creation of questions (both for assessment and practice) is a laborious/expensive effort. Thus, automatic Question-Generation (QG) solutions have been proposed and studied. Yet, according to a recent survey of the educational QG community’s progress, a common baseline dataset unifying multiple domains and question forms (e.g., multiple choice vs. fill-the-gap), including readily available baseline models to compare against, is largely missing. This is the gap we aim to fill with this paper. In particular, we introduce a high-quality dataset in the educational domain, containing over 3,000 entries, comprising (i) multiple-choice questions, (ii) the corresponding answers (including distractors), and (iii) associated passages from the course material used as sources for the questions. Each question is phrased in two forms, normal and cloze (i.e., fill-the-gap), and correct answers are linked to source documents with sentence-level annotations. Thus, our versatile dataset can be used for both question and distractor generation, as well as to explore new challenges such as question format conversion. Furthermore, 903 questions are accompanied by their cognitive complexity level as per Bloom’s taxonomy. All questions have been generated by educational experts rather than crowd workers to ensure they are maintaining educational and learning standards. Our analysis and experiments suggest distinguishable differences between our dataset and commonly used ones for question generation for educational purposes. We believe this new dataset can serve as a valuable resource for research and evaluation in the educational domain. The dataset and baselines are made available to support further research in question generation for education ( https://github.com/hadifar/question-generation).</p>
     </div>
-    <div id="deraedt2022emnlp-bibtex" class="pubabstract zoom-anim-dialog mfp-hide">
-        <h2>Robustifying sentiment classification by maximally exploiting few counterfactuals</h2>
-        <h4>M. De Raedt, F. Godin, C. Develder and T. Demeester</h4>
-        <br>in <pubconf>Proc. Conf. Empirical Methods in Natural Lang. Processing (EMNLP 2022)</pubconf>, Abu Dhabi, UAE, 7-11 Dec. <pubyear>2022</pubyear>.
+    <div id="hadifar2023access-bibtex" class="pubabstract zoom-anim-dialog mfp-hide">
+        <h2>EduQG: A multi-format multiple-choice dataset for the educational domain</h2>
+        <h4>A. Hadifar, S.K. Bitew, J. Deleu, C. Develder and T. Demeester</h4>
+        <br><pubjournal>IEEE Access</pubjournal>, Vol. 11, <pubyear>2023</pubyear>, pp. 20885-20896.
         <br><br>
         <code>
-@inproceedings{deraedt2022emnlp,<br>
-  author = {De Raedt, Maarten and Godin, Fr&eacute;deric and Develder, Chris and Demeester, Thomas},<br>
-  title = {Robustifying sentiment classification by maximally exploiting few counterfactuals},<br>
-  booktitle = {Proc. Conf. Empirical Methods in Natural Lang. Processing (EMNLP 2022)},<br>
-  month = {7--11 Dec.},<br>
-  year = {2022},<br>
-  address = {Abu Dhabi, UAE}<br>
+@article{hadifar2023access,<br>
+  author = {Hadifar, Amir and Bitew, Semere Kiros and Deleu, Johannes and Develder, Chris and Demeester, Thomas},<br>
+  title = {EduQG: A multi-format multiple-choice dataset for the educational domain},<br>
+  journal = {IEEE Access},<br>
+  year = {2023},<br>
+  volume = {11},<br>
+  pages = {20885--20896},<br>
+  doi = {10.1109/ACCESS.2023.3248790}<br>
 }
         </code>
       </div>
 </div> <!-- end row -->
+
 
 <div id="bitew2022" class="row add-bottom pubentry pub2022 pubir pubarticle">
      <div class="one column">
@@ -86,7 +88,7 @@
      </div>
      <div class="eleven columns ir">
      <pubauth>S.K. Bitew, A. Hadifar, L. Sterckx, J. Deleu, C. Develder and T. Demeester</pubauth>,
-<pubtitle><a href="papers/2022/bitew2022.pdf" target="_blank">"Learning to reuse distractors to support multiple choice question generation in education"</a></pubtitle>, <pubjournal>IEEE Trans. Learn. Technol.</pubjournal>, <pubyear>2022</pubyear>.
+<pubtitle><a href="papers/2022/bitew2022.pdf" target="_blank">"Learning to reuse distractors to support multiple choice question generation in education"</a></pubtitle>, <pubjournal>IEEE Trans. Learn. Technol.</pubjournal>, <pubyear>2022</pubyear>, pp. 1-16.
     <ul class="file-links">
                <li><a href="papers/2022/bitew2022.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a></li>
            <li><a href="https://doi.org/10.1109/TLT.2022.3226523" target="_blank"><i class="fa fa-external-link"></i> DOI</a></li>
@@ -101,14 +103,14 @@
      <div id="bitew2022-abstract" class="pubabstract zoom-anim-dialog mfp-hide">
         <h2>Learning to reuse distractors to support multiple choice question generation in education</h2>
         <h4>S.K. Bitew, A. Hadifar, L. Sterckx, J. Deleu, C. Develder and T. Demeester</h4>
-        <br><pubjournal>IEEE Trans. Learn. Technol.</pubjournal>, <pubyear>2022</pubyear>.
+        <br><pubjournal>IEEE Trans. Learn. Technol.</pubjournal>, <pubyear>2022</pubyear>, pp. 1-16.
         <br><br>
         <p>Multiple choice questions (MCQs) are widely used in digital learning systems, as they allow for automating the assessment process. However, due to the increased digital literacy of students and the advent of social media platforms, MCQ tests are widely shared online, and teachers are continuously challenged to create new questions, which is an expensive and time-consuming task. A particularly sensitive aspect of MCQ creation is to devise relevant distractors, i.e., wrong answers that are not easily identifiable as being wrong. This paper studies how a large existing set of manually created answers and distractors for questions over a variety of domains, subjects, and languages can be leveraged to help teachers in creating new MCQs, by the smart reuse of existing distractors. We built several data-driven models based on context-aware question and distractor representations, and compared them with static feature-based models. The proposed models are evaluated with automated metrics and in a realistic user test with teachers. Both automatic and human evaluations indicate that context-aware models consistently outperform a static feature-based approach. For our best-performing context-aware model, on average 3 distractors out of the 10 shown to teachers were rated as high-quality distractors. We create a performance benchmark, and make it public, to enable comparison between different approaches and to introduce a more standardized evaluation of the task. The benchmark contains a test of 298 educational questions covering multiple subjects &amp; languages and a 77k multilingual pool of distractor vocabulary for future research.</p>
     </div>
     <div id="bitew2022-bibtex" class="pubabstract zoom-anim-dialog mfp-hide">
         <h2>Learning to reuse distractors to support multiple choice question generation in education</h2>
         <h4>S.K. Bitew, A. Hadifar, L. Sterckx, J. Deleu, C. Develder and T. Demeester</h4>
-        <br><pubjournal>IEEE Trans. Learn. Technol.</pubjournal>, <pubyear>2022</pubyear>.
+        <br><pubjournal>IEEE Trans. Learn. Technol.</pubjournal>, <pubyear>2022</pubyear>, pp. 1-16.
         <br><br>
         <code>
 @article{bitew2022,<br>
@@ -116,7 +118,52 @@
   title = {Learning to reuse distractors to support multiple choice question generation in education},<br>
   journal = {IEEE Trans. Learn. Technol.},<br>
   year = {2022},<br>
+  pages = {1--16},<br>
   doi = {10.1109/TLT.2022.3226523}<br>
+}
+        </code>
+      </div>
+</div> <!-- end row -->
+
+<div id="deraedt2022emnlp" class="row add-bottom pubentry pub2022 pubir pubinproceedings">
+     <div class="one column">
+     <h3 class="inproceedings"><span>pubinproceedings</span>
+     </div>
+     <div class="eleven columns ir">
+     <pubauth>M. De Raedt, F. Godin, C. Develder and T. Demeester</pubauth>,
+<pubtitle><a href="papers/2022/deraedt2022emnlp.pdf" target="_blank">"Robustifying sentiment classification by maximally exploiting few counterfactuals"</a></pubtitle>, in <pubconf>Proc. Conf. Empirical Methods in Natural Lang. Processing (EMNLP 2022)</pubconf>, Abu Dhabi, UAE, <pubyear>2022</pubyear>, pp. 11386–-11400.
+    <ul class="file-links">
+               <li><a href="papers/2022/deraedt2022emnlp.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a></li>
+           
+           <li><a href="https://aclanthology.org/2022.emnlp-main.783" target="_blank"><i class="fa fa-globe"></i> WWW</a></li>
+               <li><a class="popup-with-zoom-anim" href="#deraedt2022emnlp-abstract"><i class="fa fa-eye"></i> Abstract</a></li>
+           <li><a class="popup-with-zoom-anim" href="#deraedt2022emnlp-bibtex"><i class="fa fa-bookmark-o"></i> BibTeX</a></li>
+         <li><a href="https://arxiv.org/abs/2210.11805" target="_blank"><i class="ai ai-arxiv"></i> arXiv</a></li>
+         <li><a href="https://github.com/maarten-deraedt/EMNLP2022-robustifying-sentiment-classification" target="_blank"><i class="fa fa-github"></i> Code</a></li>
+         
+    </ul>
+     </div>
+     <div id="deraedt2022emnlp-abstract" class="pubabstract zoom-anim-dialog mfp-hide">
+        <h2>Robustifying sentiment classification by maximally exploiting few counterfactuals</h2>
+        <h4>M. De Raedt, F. Godin, C. Develder and T. Demeester</h4>
+        <br>in <pubconf>Proc. Conf. Empirical Methods in Natural Lang. Processing (EMNLP 2022)</pubconf>, Abu Dhabi, UAE, <pubyear>2022</pubyear>, pp. 11386–-11400.
+        <br><br>
+        <p>For text classification tasks, finetuned language models perform remarkably well. Yet, they tend to rely on spurious patterns in training data, thus limiting their performance on out-of-distribution (OOD) test data. Among recent models aiming to avoid this spurious pattern problem, adding extra counterfactual samples to the training data has proven to be very effective. Yet, counterfactual data generation is costly since it relies on human annotation. Thus, we propose a novel solution that only requires annotation of a small fraction (e.g., 1%) of the original training data, and uses automatic generation of extra counterfactuals in an encoding vector space. We demonstrate the effectiveness of our approach in sentiment classification, using IMDb data for training and other sets for OOD tests (i.e., Amazon, SemEval and Yelp). We achieve noticeable accuracy improvements by adding only 1% manual counterfactuals: +3% compared to adding +100% in-distribution training samples, +1.3% compared to alternate counterfactual approaches.</p>
+    </div>
+    <div id="deraedt2022emnlp-bibtex" class="pubabstract zoom-anim-dialog mfp-hide">
+        <h2>Robustifying sentiment classification by maximally exploiting few counterfactuals</h2>
+        <h4>M. De Raedt, F. Godin, C. Develder and T. Demeester</h4>
+        <br>in <pubconf>Proc. Conf. Empirical Methods in Natural Lang. Processing (EMNLP 2022)</pubconf>, Abu Dhabi, UAE, <pubyear>2022</pubyear>, pp. 11386–-11400.
+        <br><br>
+        <code>
+@inproceedings{deraedt2022emnlp,<br>
+  author = {De Raedt, Maarten and Godin, Fr&eacute;deric and Develder, Chris and Demeester, Thomas},<br>
+  title = {Robustifying sentiment classification by maximally exploiting few counterfactuals},<br>
+  booktitle = {Proc. Conf. Empirical Methods in Natural Lang. Processing (EMNLP 2022)},<br>
+  year = {2022},<br>
+  pages = {11386–-11400},<br>
+  address = {Abu Dhabi, UAE},<br>
+  url = {https://aclanthology.org/2022.emnlp-main.783}<br>
 }
         </code>
       </div>
