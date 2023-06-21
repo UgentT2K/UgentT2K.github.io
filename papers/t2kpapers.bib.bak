@@ -1085,15 +1085,18 @@ In this paper, we discuss the main components of our end-to-end system, capable 
 
 @Article{jiang2022cookdial,
   author          = {Jiang, Yiwei and Zaporojets, Klim and Deleu, Johannes and Demeester, Thomas and Develder, Chris},
-  journal         = {Appl. Intelligence},
   title           = {{CookDial}: {A} dataset for task-oriented dialogs grounded in procedural documents},
-  year            = {2022},
+  year            = {2023},
   month           = {Jun.},
+  number          = {11},
+  pages           = {4748--4766},
+  volume          = {53},
   abstract        = {This work presents a new dialog dataset, CookDial, that facilitates research on task-oriented dialog systems with procedural knowledge understanding. The corpus contains 260 human-to-human task-oriented dialogs in which an agent, given a recipe document, guides the user to cook a dish. Dialogs in CookDial exhibit two unique features: (i) procedural alignment between the dialog flow and supporting document; (ii) complex agent decision-making that involves segmenting long sentences, paraphrasing hard instructions and resolving coreference in the dialog context. In addition, we identify three challenging (sub)tasks in the assumed task-oriented dialog system: (1) User Question Understanding, (2) Agent Action Frame Prediction, and (3) Agent Response Generation. For each of these tasks, we develop a neural baseline model, which we evaluate on the CookDial dataset. We publicly release the CookDial dataset, comprising rich annotations of both dialogs and recipe documents, to stimulate further research on domain-specific document-grounded dialog systems.},
   area            = {IR},
   arxiv           = {https://arxiv.org/abs/2206.08723},
   code            = {https://github.com/YiweiJiang2015/CookDial},
   doi             = {10.1007/s10489-022-03692-0},
+  journaltitle    = {Appl. Intelligence},
   publicationtype = {A1},
   timestamp       = {2022.06.15},
 }
@@ -1280,6 +1283,20 @@ approximating its probabilistic and causal properties.},
   publicationtype = {C1},
   timestamp       = {2022.11.28},
   url             = {https://proceedings.neurips.cc/paper_files/paper/2022/hash/701ec28790b29a5bc33832b7bdc4c3b6-Abstract-Conference.html},
+}
+
+@InProceedings{doosterlinck2023icml,
+  author          = {Zhengxuan Wu and Karel D'Oosterlinck and Atticus Geiger and Amir Zur and Christopher Potts},
+  booktitle       = {Proc. 40th Int. Conf. Machine Learn. (ICML 2023)},
+  title           = {Causal proxy models for concept-based model explanations},
+  year            = {2023},
+  address         = {Honolulu, HI, USA},
+  month           = {23--29 Jul.},
+  abstract        = {Explainability methods for NLP systems encounter a version of the fundamental problem of causal inference: for a given ground-truth input text, we never truly observe the counterfactual texts necessary for isolating the causal effects of model representations on outputs. In response, many explainability methods make no use of counterfactual texts, assuming they will be unavailable. In this paper, we show that robust causal explainability methods can be created using approximate counterfactuals, which can be written by humans to approximate a specific counterfactual or simply sampled using metadata-guided heuristics. The core of our proposal is the Causal Proxy Model (CPM). A CPM explains a black-box model N because it is trained to have the same actual input/output behavior as N while creating neural representations that can be intervened upon to simulate the counterfactual input/output behavior of N. Furthermore, we show that the best CPM for N performs comparably to N in making factual predictions, which means that the CPM can simply replace N, leading to more explainable deployed models.},
+  area            = {IR},
+  publicationtype = {C1},
+  timestamp       = {2023.07.23},
+  url             = {https://openreview.net/forum?id=1Hh1cIPJ7V},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
