@@ -1300,4 +1300,37 @@ approximating its probabilistic and causal properties.},
   url             = {https://openreview.net/forum?id=1Hh1cIPJ7V},
 }
 
+@InProceedings{bitew2023rkde,
+  author          = {Bitew, Semere Kiros and Deleu, Johannes and Develder, Chris and Demeester, Thomas},
+  booktitle       = {Proc. 1st Int. Tut. Workshop on Responsible Knowledge Discovery in Education (RKDE 2023) at ECML-PKDD 2023},
+  title           = {Distractor generation for multiple-choice questions with predictive prompting and large language models},
+  year            = {2023},
+  address         = {Turin, Italy},
+  month           = {18 Sep.},
+  pages           = {1--16},
+  abstract        = {Large Language Models (LLMs) such as ChatGPT have demonstrated remarkable performance across various tasks and have garnered significant attention from both researchers and practitioners. However, in an educational context, we still observe a performance gap in generating distractors -- i.e., plausible yet incorrect answers -- with LLMs for multiple-choice questions (MCQs). In this study, we propose a strategy for guiding LLMs such as ChatGPT, in generating relevant distractors by prompting them with question items automatically retrieved from a question bank as well-chosen in-context examples. We evaluate our LLM-based solutions using a quantitative assessment on an existing test set, as well as through quality annotations by human experts, i.e., teachers. We found that on average 53% of the generated distractors presented to the teachers were rated as high-quality, i.e., suitable for immediate use as is, outperforming the state-of-the-art model. We also show the gains of our approach 1 in generating high-quality distractors by comparing it with a zero-shot ChatGPT and a few-shot ChatGPT prompted with static examples.},
+  area            = {IR},
+  arxiv           = {https://arxiv.org/abs/2307.16338},
+  code            = {https://github.com/semerekiros/distractGPT/},
+  publicationtype = {C1},
+  timestamp       = {2023.09.18},
+}
+
+@InProceedings{bitew2023bea,
+  author          = {Bitew, Semere Kiros and Deleu, Johannes and Doruz, A. Seza and Develder, Chris and Demeester, Thomas},
+  booktitle       = {Proc. 18th Workshop Innovative Use of NLP for Building Educational Applications (BEA 2023) at ACL 2023},
+  title           = {Learning from Partially Annotated Data: Example-aware Creation of Gap-filling Exercises for Language Learning},
+  year            = {2023},
+  address         = {Toronto, Canada},
+  month           = {13 Jul.},
+  pages           = {598--609},
+  abstract        = {Since performing exercises (including, e.g.,practice tests) forms a crucial component oflearning, and creating such exercises requiresnon-trivial effort from the teacher. There is agreat value in automatic exercise generationin digital tools in education. In this paper, weparticularly focus on automatic creation of gap-filling exercises for language learning, specifi-cally grammar exercises. Since providing anyannotation in this domain requires human ex-pert effort, we aim to avoid it entirely and ex-plore the task of converting existing texts intonew gap-filling exercises, purely based on anexample exercise, without explicit instructionor detailed annotation of the intended gram-mar topics. We contribute (i) a novel neuralnetwork architecture specifically designed foraforementioned gap-filling exercise generationtask, and (ii) a real-world benchmark datasetfor French grammar. We show that our modelfor this French grammar gap-filling exercisegeneration outperforms a competitive baselineclassifier by 8% in F1 percentage points, achiev-ing an average F1 score of 82%. Our model im-plementation and the dataset are made publiclyavailable to foster future research, thus offeringa standardized evaluation and baseline solutionof the proposed partially annotated data predic-tion task in grammar exercise creation.},
+  area            = {IR},
+  arxiv           = {https://arxiv.org/abs/2306.01584},
+  code            = {https://github.com/semerekiros/GF2/},
+  publicationtype = {C1},
+  timestamp       = {2023.07.13},
+  url             = {https://aclanthology.org/2023.bea-1.51},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

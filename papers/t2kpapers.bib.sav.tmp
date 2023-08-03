@@ -1250,4 +1250,78 @@ In this paper, we discuss the main components of our end-to-end system, capable 
   month           = {2 Dec.},
   abstract        = {Bayesian Networks may be appealing for clinical decision-making due to their
 inclusion of causal knowledge, but their practical adoption remains limited as a
-result of their inabi
+result of their inability to deal with unstructured data. While neural networks do
+not have this limitation, they are not interpretable and are inherently unable to deal
+with causal structure in the input space. Our goal is to build neural networks that
+combine the advantages of both approaches. Motivated by the perspective to inject
+causal knowledge while training such neural networks, this work presents initial
+steps in that direction. We demonstrate how a neural network can be trained to
+output conditional probabilities, providing approximately the same functionality
+as a Bayesian Network. Additionally, we propose two training strategies that allow
+encoding the independence relations inferred from a given causal structure into the
+neural network. We present initial results in a proof-of-concept setting, showing
+that the neural model acts as an understudy to its Bayesian Network counterpart,
+approximating its probabilistic and causal properties.},
+  area            = {IR},
+  arxiv           = {https://arxiv.org/abs/2211.08243},
+  code            = {https://github.com/prabaey/NBN-understudy},
+  publicationtype = {C1},
+  timestamp       = {2022.12.02},
+}
+
+@InProceedings{abraham2022,
+  author          = {Abraham, Eldar David and D'Oosterlinck, Karel and Feder, Amir and Gat, Yair and Geiger, Atticus and Potts, Christopher and Reichart, Roi and Wu, Zhengxuan},
+  booktitle       = {Proc. 36th Conf. Neural Inf. Process. Sys. (NeurIPS 2022)},
+  title           = {{CEBaB}: Estimating the causal effects of real-world concepts on {NLP} model behavior},
+  year            = {2022},
+  address         = {New Orleans, LA, USA},
+  month           = {28 Nov.--9 Dec.},
+  abstract        = {The increasing size and complexity of modern ML systems has improved their predictive capabilities but made their behavior harder to explain. Many techniques for model explanation have been developed in response, but we lack clear criteria for assessing these techniques. In this paper, we cast model explanation as the causal inference problem of estimating causal effects of real-world concepts on the output behavior of ML models given actual input data. We introduce CEBaB, a new benchmark dataset for assessing concept-based explanation methods in Natural Language Processing (NLP). CEBaB consists of short restaurant reviews with human-generated counterfactual reviews in which an aspect (food, noise, ambiance, service) of the dining experience was modified. Original and counterfactual reviews are annotated with multiply-validated sentiment ratings at the aspect-level and review-level. The rich structure of CEBaB allows us to go beyond input features to study the effects of abstract, real-world concepts on model behavior. We use CEBaB to compare the quality of a range of concept-based explanation methods covering different assumptions and conceptions of the problem, and we seek to establish natural metrics for comparative assessments of these methods.},
+  area            = {IR},
+  arxiv           = {https://arxiv.org/abs/2205.14140},
+  code            = {https://cebabing.github.io/CEBaB/},
+  publicationtype = {C1},
+  timestamp       = {2022.11.28},
+  url             = {https://proceedings.neurips.cc/paper_files/paper/2022/hash/701ec28790b29a5bc33832b7bdc4c3b6-Abstract-Conference.html},
+}
+
+@InProceedings{doosterlinck2023icml,
+  author          = {Zhengxuan Wu and Karel D'Oosterlinck and Atticus Geiger and Amir Zur and Christopher Potts},
+  booktitle       = {Proc. 40th Int. Conf. Machine Learn. (ICML 2023)},
+  title           = {Causal proxy models for concept-based model explanations},
+  year            = {2023},
+  address         = {Honolulu, HI, USA},
+  month           = {23--29 Jul.},
+  pages           = {1--22},
+  abstract        = {Explainability methods for NLP systems encounter a version of the fundamental problem of causal inference: for a given ground-truth input text, we never truly observe the counterfactual texts necessary for isolating the causal effects of model representations on outputs. In response, many explainability methods make no use of counterfactual texts, assuming they will be unavailable. In this paper, we show that robust causal explainability methods can be created using approximate counterfactuals, which can be written by humans to approximate a specific counterfactual or simply sampled using metadata-guided heuristics. The core of our proposal is the Causal Proxy Model (CPM). A CPM explains a black-box model N because it is trained to have the same actual input/output behavior as N while creating neural representations that can be intervened upon to simulate the counterfactual input/output behavior of N. Furthermore, we show that the best CPM for N performs comparably to N in making factual predictions, which means that the CPM can simply replace N, leading to more explainable deployed models.},
+  area            = {IR},
+  publicationtype = {C1},
+  timestamp       = {2023.07.23},
+  url             = {https://openreview.net/forum?id=1Hh1cIPJ7V},
+}
+
+@InProceedings{bitew2023rkde,
+  author          = {Bitew, Semere Kiros and Deleu, Johannes and Develder, Chris and Demeester, Thomas},
+  booktitle       = {Proc. 1st Int. Tut. Workshop on Responsible Knowledge Discovery in Education (RKDE 2023) at ECML-PKDD 2023},
+  title           = {Distractor generation for multiple-choice questions with predictive prompting and large language models},
+  year            = {2023},
+  address         = {Turin, Italy},
+  month           = {18 Sep.},
+  pages           = {1--16},
+  abstract        = {Large Language Models (LLMs) such as ChatGPT have demonstrated remarkable performance across various tasks and have garnered significant attention from both researchers and practitioners. However, in an educational context, we still observe a performance gap in generating distractors -- i.e., plausible yet incorrect answers -- with LLMs for multiple-choice questions (MCQs). In this study, we propose a strategy for guiding LLMs such as ChatGPT, in generating relevant distractors by prompting them with question items automatically retrieved from a question bank as well-chosen in-context examples. We evaluate our LLM-based solutions using a quantitative assessment on an existing test set, as well as through quality annotations by human experts, i.e., teachers. We found that on average 53% of the generated distractors presented to the teachers were rated as high-quality, i.e., suitable for immediate use as is, outperforming the state-of-the-art model. We also show the gains of our approach 1 in generating high-quality distractors by comparing it with a zero-shot ChatGPT and a few-shot ChatGPT prompted with static examples.},
+  area            = {IR},
+  arxiv           = {https://arxiv.org/abs/2307.16338},
+  code            = {https://github.com/semerekiros/distractGPT/},
+  publicationtype = {C1},
+  timestamp       = {2023.09.18},
+}
+
+@InProceedings{bitew2023bea,
+  author          = {Bitew, Semere Kiros and Deleu, Johannes and Doruz, A. Seza and Develder, Chris and Demeester, Thomas},
+  booktitle       = {Proc. 18th Workshop Innovative Use of NLP for Building Educational Applications (BEA 2023) at ACL 2023},
+  title           = {Learning from Partially Annotated Data: Example-aware Creation of Gap-filling Exercises for Language Learning},
+  year            = {2023},
+  address         = {Toronto, Canada},
+  month           = {13 Jul.},
+  pages           = {598--609},
+  abstract        = {Since performing exercises (including, e.g.,practice tests) forms a crucial component oflearning, and creating such exercises requiresnon-trivial effort from the teacher. There is agreat value in automatic exercise generationin digital tools in education. In this paper, weparticularly focus on automatic creation of gap-filling exercises for language learning, specifi-cally grammar exercises. Since providing anyannotation in this domain requires human ex-pert effort, we aim to avoid it entirely and ex-plore the task of converting existing texts intonew gap-filling exercises, purely based on anexample exercise, without explicit instructionor detailed annotation of the intended gram-mar topics. We contribute (i) a nove
