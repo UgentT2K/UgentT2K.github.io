@@ -1317,11 +1317,11 @@ approximating its probabilistic and causal properties.},
 }
 
 @InProceedings{bitew2023bea,
-  author          = {Bitew, Semere Kiros and Deleu, Johannes and Doruz, A. Seza and Develder, Chris and Demeester, Thomas},
+  author          = {Bitew, Semere Kiros and Deleu, Johannes and Do\u{g}ru\"{o}z, A. Seza and Develder, Chris and Demeester, Thomas},
   booktitle       = {Proc. 18th Workshop Innovative Use of NLP for Building Educational Applications (BEA 2023) at ACL 2023},
   title           = {Learning from Partially Annotated Data: Example-aware Creation of Gap-filling Exercises for Language Learning},
   year            = {2023},
   address         = {Toronto, Canada},
   month           = {13 Jul.},
   pages           = {598--609},
-  abstract        = {Since performing exercises (including, e.g.,practice tests) forms a crucial component oflearning, and creating such exercises requiresnon-trivial effort from the teacher. There is agreat value in automatic exercise generationin digital tools in education. In this paper, weparticularly focus on automatic creation of gap-filling exercises for language learning, specifi-cally grammar exercises. Since providing anyannotation in this domain requires human ex-pert effort, we aim to avoid it entirely and ex-plore the task of converting existing texts intonew gap-filling exercises, purely based on anexample exercise, without explicit instructionor detailed annotation of the intended gram-mar topics. We contribute (i) a nove
+  abstract        = {Since performing exercises (including, e.g.,practice tests) forms a crucial component oflearning, and creating such exercises requiresnon-trivial effort from the teacher. There is agreat value in automatic exercise generationin digital tools in education. In this paper, weparticularly focus on automatic creation of gap-filling exercises for language learning, specifi-cally grammar exercises. Since providing anyannotation in this domain requires human ex-pert effort, we aim to avoid it entirely and ex-plore the task of converting existing texts intonew gap-filling exercises, purely based on anexample exercise, without explicit instructionor detailed annotation of the intended gram-mar topics. We contribute 
