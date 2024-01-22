@@ -1096,7 +1096,7 @@ In this paper, we discuss the main components of our end-to-end system, capable 
   arxiv           = {https://arxiv.org/abs/2206.08723},
   code            = {https://github.com/YiweiJiang2015/CookDial},
   doi             = {10.1007/s10489-022-03692-0},
-  journaltitle    = {Appl. Intelligence},
+  journaltitle    = {Appl. Intell.},
   publicationtype = {A1},
   timestamp       = {2022.06.15},
 }
@@ -1199,16 +1199,17 @@ In this paper, we discuss the main components of our end-to-end system, capable 
 @Article{bitew2022,
   author          = {Bitew, Semere Kiros and Hadifar, Amir and Sterckx, Lucas and Deleu, Johannes and Develder, Chris and Demeester, Thomas},
   journal         = {IEEE Trans. Learn. Technol.},
-  title           = {Learning to reuse distractors to support multiple choice question generation in education},
-  year            = {2022},
-  pages           = {1--16},
+  title           = {Learning to reuse distractors to support multiple-choice question generation in education},
+  year            = {2024},
+  pages           = {375--390},
+  volume          = {17},
   abstract        = {Multiple choice questions (MCQs) are widely used in digital learning systems, as they allow for automating the assessment process. However, due to the increased digital literacy of students and the advent of social media platforms, MCQ tests are widely shared online, and teachers are continuously challenged to create new questions, which is an expensive and time-consuming task. A particularly sensitive aspect of MCQ creation is to devise relevant distractors, i.e., wrong answers that are not easily identifiable as being wrong. This paper studies how a large existing set of manually created answers and distractors for questions over a variety of domains, subjects, and languages can be leveraged to help teachers in creating new MCQs, by the smart reuse of existing distractors. We built several data-driven models based on context-aware question and distractor representations, and compared them with static feature-based models. The proposed models are evaluated with automated metrics and in a realistic user test with teachers. Both automatic and human evaluations indicate that context-aware models consistently outperform a static feature-based approach. For our best-performing context-aware model, on average 3 distractors out of the 10 shown to teachers were rated as high-quality distractors. We create a performance benchmark, and make it public, to enable comparison between different approaches and to introduce a more standardized evaluation of the task. The benchmark contains a test of 298 educational questions covering multiple subjects & languages and a 77k multilingual pool of distractor vocabulary for future research.},
   area            = {IR},
   arxiv           = {https://arxiv.org/abs/2210.13964},
   code            = {https://github.com/semerekiros/dist-retrieval},
   doi             = {10.1109/TLT.2022.3226523},
   publicationtype = {A1},
-  timestamp       = {2022.12.06},
+  timestamp       = {2022.12.05},
 }
 
 @Article{hadifar2023access,
@@ -1393,4 +1394,4 @@ approximating its probabilistic and causal properties.},
   arxiv           = {https://arxiv.org/abs/2307.10778},
   huggingface     = {https://huggingface.co/datasets/jensjorisdecorte/Synthetic-ESCO-skill-sentences},
   publicationtype = {C1},
-  timestamp       = {2023.09.1
+  time
