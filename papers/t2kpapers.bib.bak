@@ -1096,7 +1096,7 @@ In this paper, we discuss the main components of our end-to-end system, capable 
   arxiv           = {https://arxiv.org/abs/2206.08723},
   code            = {https://github.com/YiweiJiang2015/CookDial},
   doi             = {10.1007/s10489-022-03692-0},
-  journaltitle    = {Appl. Intelligence},
+  journaltitle    = {Appl. Intell.},
   publicationtype = {A1},
   timestamp       = {2022.06.15},
 }
@@ -1441,7 +1441,7 @@ approximating its probabilistic and causal properties.},
   timestamp       = {2023.12.07},
 }
 
-@Article{jiang2024,
+@Article{jiang2024oos,
   author          = {Jiang, Yiwei and De Raedt, Maarten and Deleu, Johannes and Demeester, Thomas and Develder, Chris},
   journal         = {Appl. Intell.},
   title           = {Few-shot out-of-scope intent classification: Analyzing the robustness of prompt-based learning},
