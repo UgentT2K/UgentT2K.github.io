@@ -40,6 +40,52 @@
       </div> <!-- twelve columns -->
       </div> <!-- end row -->
 
+<div id="deraedt2024apin" class="row add-bottom pubentry pub2024 pubir pubarticle">
+     <div class="one column">
+     <h3 class="article"><span>pubarticle</span>
+     </div>
+     <div class="eleven columns ir">
+     <pubauth>M. De Raedt, F. Godin, C. Develder and T. Demeester</pubauth>,
+<pubtitle><a href="papers/2024/deraedt2024apin.pdf" target="_blank">"Revisiting clustering for efficient unsupervised dialogue structure induction"</a></pubtitle>, <pubjournal>Appl. Intell.</pubjournal>, Vol. 54, Apr. <pubyear>2024</pubyear>, pp. 5278-5305.
+    <ul class="file-links">
+               <li><a href="papers/2024/deraedt2024apin.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a></li>
+           <li><a href="https://doi.org/10.1007/s10489-024-05455-5" target="_blank"><i class="fa fa-external-link"></i> DOI</a></li>
+           
+               <li><a class="popup-with-zoom-anim" href="#deraedt2024apin-abstract"><i class="fa fa-eye"></i> Abstract</a></li>
+           <li><a class="popup-with-zoom-anim" href="#deraedt2024apin-bibtex"><i class="fa fa-bookmark-o"></i> BibTeX</a></li>
+         
+         
+         
+    </ul>
+     </div>
+     <div id="deraedt2024apin-abstract" class="pubabstract zoom-anim-dialog mfp-hide">
+        <h2>Revisiting clustering for efficient unsupervised dialogue structure induction</h2>
+        <h4>M. De Raedt, F. Godin, C. Develder and T. Demeester</h4>
+        <br><pubjournal>Appl. Intell.</pubjournal>, Vol. 54, Apr. <pubyear>2024</pubyear>, pp. 5278-5305.
+        <br><br>
+        <p>In the development of a task-oriented dialogue system, defining the dialogue structure is a time-consuming task. Hence, several works have looked into automatically inferring it from data, e.g., actual conversations between a customer and a support agent. To recover such dialogue structure, recent methods based on discrete variational models learn to jointly encode and cluster utterances in dialogue states, but (i) represent utterances by only considering preceding dialogue context, and (ii) are slow to train since they are optimized with a compute-expensive decoding objective. We revisit and improve upon an existing efficient pipeline approach, commonly adopted as a baseline, that first encodes utterances and then clusters them with k-means to induce the dialogue structure. However, the existing approach represents utterances as bag-of-words or skip-thought vectors, which have been shown to perform poorly in semantic similarity tasks, and without considering dialogue context. We therefore first investigate the use of more powerful transformer-based encoders for encoding utterances. Next, we propose ELLoDAR, a method for learning representations that capture both preceding and subsequent dialogue context, inspired by word-to-vec training strategies. ELLoDAR is efficient since representations are learned directly in the encoding space by finetuning just a single linear layer on top of a frozen sentence encoder with a vector-to-vector regression training objective. Extensive experiments on representative datasets for dialogue structure induction (SimDial, Schema Guided Dialogues, DSTC2, and CamRest676) demonstrate that in terms of effectiveness to induce the correct dialogue structure, (i) clustering utterances represented by transformed-based encoders improves recent joint models by 13%–32% on standard cluster metrics, and (ii) clustering ELLoDAR’s representations yields additional improvements ranging from +20% to +26%, with speedups of x10-10,000 compared to the recent joint models.</p>
+    </div>
+    <div id="deraedt2024apin-bibtex" class="pubabstract zoom-anim-dialog mfp-hide">
+        <h2>Revisiting clustering for efficient unsupervised dialogue structure induction</h2>
+        <h4>M. De Raedt, F. Godin, C. Develder and T. Demeester</h4>
+        <br><pubjournal>Appl. Intell.</pubjournal>, Vol. 54, Apr. <pubyear>2024</pubyear>, pp. 5278-5305.
+        <br><br>
+        <code>
+@article{deraedt2024apin,<br>
+  author = {De Raedt, Maarten and Godin, Fr&eacute;deric and Develder, Chris and Demeester, Thomas},<br>
+  title = {Revisiting clustering for efficient unsupervised dialogue structure induction},<br>
+  journal = {Appl. Intell.},<br>
+  month = {Apr.},<br>
+  year = {2024},<br>
+  volume = {54},<br>
+  pages = {5278--5305},<br>
+  doi = {10.1007/s10489-024-05455-5}<br>
+}
+        </code>
+      </div>
+</div> <!-- end row -->
+
+
 <div id="rabaey2024biomed" class="row add-bottom pubentry pub2024 pubir pubarticle">
      <div class="one column">
      <h3 class="article"><span>pubarticle</span>
@@ -66,7 +112,7 @@
         <p><br>Background &mdash; Chronic Fatigue Syndrome patients suffer from symptoms that cannot be explained by a single underlying biological cause. It is sometimes claimed that these symptoms are a manifestation of a disrupted autonomic nervous system. Prior works studying this claim from the complex adaptive systems perspective, have observed a lower average complexity of physical activity patterns in chronic fatigue syndrome patients compared to healthy controls. To further study the robustness of such methods, we investigate the within-patient changes in complexity of activity over time. Furthermore, we explore how these changes might be related to changes in patient functioning.
         <br>Methods &mdash;  We propose an extension of the allometric aggregation method, which characterises the complexity of a physiological signal by quantifying the evolution of its fractal dimension. We use it to investigate the temporal variations in within-patient complexity. To this end, physical activity patterns of 7 patients diagnosed with chronic fatigue syndrome were recorded over a period of 3 weeks. These recordings are accompanied by physicians’ judgements in terms of the patients’ weekly functioning.
         <br>Results &mdash;  We report significant within-patient variations in complexity over time. The obtained metrics are shown to depend on the range of timescales for which these are evaluated. We were unable to establish a consistent link between complexity and functioning on a week-by-week basis for the majority of the patients.
-        <br>Conclusions &mdash; The considerable within-patient variations of the fractal dimension across scales and time force us to question the utility of previous studies that characterize long-term activity signals using a single static complexity metric. The complexity of a Chronic Fatigue Syndrome patient’s physical activity signal does not suffice to characterise their high-level functioning over time and has limited potential as an objective monitoring metric by itself.</p>
+        <br>Conclusions &mdash; The considerable within-patient variations of the fractal dimension across scales and time force us to question the utility of previous studies that characterise long-term activity signals using a single static complexity metric. The complexity of a Chronic Fatigue Syndrome patient’s physical activity signal does not suffice to characterise their high-level functioning over time and has limited potential as an objective monitoring metric by itself.</p>
     </div>
     <div id="rabaey2024biomed-bibtex" class="pubabstract zoom-anim-dialog mfp-hide">
         <h2>Time-dependent complexity characterisation of activity patterns in patients with Chronic Fatigue Syndrome</h2>

@@ -1492,4 +1492,19 @@ Conclusions -- The considerable within-patient variations of the fractal dimensi
   timestamp       = {2024.04.01},
 }
 
+@Article{deraedt2024apin,
+  author          = {De Raedt, Maarten and Godin, Fr\'{e}deric and Develder, Chris and Demeester, Thomas},
+  journal         = {Appl. Intell.},
+  title           = {Revisiting clustering for efficient unsupervised dialogue structure induction},
+  year            = {2024},
+  month           = {Apr.},
+  pages           = {5278--5305},
+  volume          = {54},
+  abstract        = {In the development of a task-oriented dialogue system, defining the dialogue structure is a time-consuming task. Hence, several works have looked into automatically inferring it from data, e.g., actual conversations between a customer and a support agent. To recover such dialogue structure, recent methods based on discrete variational models learn to jointly encode and cluster utterances in dialogue states, but (i) represent utterances by only considering preceding dialogue context, and (ii) are slow to train since they are optimized with a compute-expensive decoding objective. We revisit and improve upon an existing efficient pipeline approach, commonly adopted as a baseline, that first encodes utterances and then clusters them with k-means to induce the dialogue structure. However, the existing approach represents utterances as bag-of-words or skip-thought vectors, which have been shown to perform poorly in semantic similarity tasks, and without considering dialogue context. We therefore first investigate the use of more powerful transformer-based encoders for encoding utterances. Next, we propose ELLoDAR, a method for learning representations that capture both preceding and subsequent dialogue context, inspired by word-to-vec training strategies. ELLoDAR is efficient since representations are learned directly in the encoding space by finetuning just a single linear layer on top of a frozen sentence encoder with a vector-to-vector regression training objective. Extensive experiments on representative datasets for dialogue structure induction (SimDial, Schema Guided Dialogues, DSTC2, and CamRest676) demonstrate that in terms of effectiveness to induce the correct dialogue structure, (i) clustering utterances represented by transformed-based encoders improves recent joint models by 13%–32% on standard cluster metrics, and (ii) clustering ELLoDAR’s representations yields additional improvements ranging from +20% to +26%, with speedups of x10-10,000 compared to the recent joint models.},
+  area            = {IR},
+  doi             = {10.1007/s10489-024-05455-5},
+  publicationtype = {A1},
+  timestamp       = {2024.04.18},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
