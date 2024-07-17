@@ -1405,7 +1405,7 @@ approximating its probabilistic and causal properties.},
   year            = {2023},
   address         = {Singapore},
   month           = {Dec.},
-  pages           = {13425–-13454},
+  pages           = {13425--13454},
   abstract        = {Timely and accurate extraction of Adverse Drug Events (ADE) from biomedical literature is paramount for public safety, but involves slow and costly manual labor. We set out to improve drug safety monitoring (pharmacovigilance, PV) through the use of Natural Language Processing (NLP). We introduce BioDEX, a large-scale resource for Biomedical adverse Drug Event Extraction, rooted in the historical output of drug safety reporting in the U.S. BioDEX consists of 65k abstracts and 19k full-text biomedical papers with 256k associated document-level safety reports created by medical experts. The core features of these reports include the reported weight, age, and biological sex of a patient, a set of drugs taken by the patient, the drug dosages, the reactions experienced, and whether the reaction was life threatening. In this work, we consider the task of predicting the core information of the report given its originating paper. We estimate human performance to be 72.0% F1, whereas our best model achieves 62.3% F1, indicating significant headroom on this task. We also begin to explore ways in which these models could help professional PV reviewers. Our code and data are available:  https://github.com/KarelDO/BioDEX},
   area            = {IR},
   arxiv           = {https://arxiv.org/abs/2305.13395},
@@ -1517,4 +1517,4 @@ Conclusions -- The considerable within-patient variations of the fractal dimensi
   booktitle       = {Proc. 6th BlackboxNLP Workshop: Anal. and Interpret. Neural Netw. for NLP (BlackboxMLP 2023) at EMNLP 2023},
   title           = {Rigorously assessing natural language explanations of neurons},
   year            = {2023},
-  addres
+  address 
