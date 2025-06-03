@@ -1540,4 +1540,32 @@ Conclusions -- The considerable within-patient variations of the fractal dimensi
   timestamp       = {2023.12.07},
 }
 
+@Article{doosterlinck2025tacl,
+  author          = {D'Oosterlinck, Karel and Xu, Winnie and Develder, Chris and Demeester, Thomas and Singh, Amanpreet and Potts, Christopher and Kiela, Douwe and Mehri, Shikib},
+  journal         = {Trans. Assoc. Comput. Ling.},
+  title           = {Anchored preference optimization and contrastive revisions: addressing underspecification in alignment},
+  year            = {2025},
+  month           = {Apr.},
+  pages           = {442--460},
+  abstract        = {Large Language Models (LLMs) are often aligned using contrastive alignment objectives and preference pair datasets. The interaction between model, paired data, and objective makes alignment a complicated procedure, sometimes producing subpar results. We study this and find that (i) preference data gives a better learning signal when the underlying responses are contrastive, and (ii) alignment objectives lead to better performance when they specify more control over the model during training. Based on these insights, we introduce Contrastive Learning from AI Revisions (CLAIR), a data-creation method which leads to more contrastive preference pairs, and Anchored Preference Optimization (APO), a controllable and more stable alignment objective. We align Llama-3-8B-Instruct using various comparable datasets and alignment objectives and measure MixEval-Hard scores, which correlate highly with human judgments. The CLAIR preferences lead to the strongest performance out of all datasets, and APO consistently outperforms less controllable objectives. Our best model, trained on 32K CLAIR preferences with APO, improves Llama-3-8B-Instruct by 7.65\%, closing the gap with GPT4-turbo by 45\%. Our code and datasets are available.},
+  area            = {IR},
+  doi             = {10.1162/tacl_a_00748},
+  publicationtype = {A1},
+  timestamp       = {2025.04.24},
+}
+
+@InProceedings{koulischer2025iclr,
+  author          = {Koulischer, Felix and Deleu, Johannes and Raya, Gabriel and Demeester, Thomas and Ambrogioni, Luca},
+  booktitle       = {Proc. 13th Int. Conf. Learning Representations (ICLR 2025)},
+  title           = {Dynamic negative guidance of diffusion models},
+  year            = {2025},
+  address         = {Singapore},
+  month           = {24--28 Apr.},
+  abstract        = {Negative Prompting (NP) is widely utilized in diffusion models, particularly in text-to-image applications, to prevent the generation of undesired features. In this paper, we show that conventional NP is limited by the assumption of a constant guidance scale, which may lead to highly suboptimal results, or even complete failure, due to the non-stationarity and state-dependence of the reverse process. Based on this analysis, we derive a principled technique called Dynamic Negative Guidance, which relies on a near-optimal time and state dependent modulation of the guidance without requiring additional training. Unlike NP, negative guidance requires estimating the posterior class probability during the denoising process, which is achieved with limited additional computational overhead by tracking the discrete Markov Chain during the generative process. We evaluate the performance of DNG class-removal on MNIST and CIFAR10, where we show that DNG leads to higher safety, preservation of class balance and image quality when compared with baseline methods. Furthermore, we show that it is possible to use DNG with Stable Diffusion to obtain more accurate and less invasive guidance than NP.},
+  area            = {IR},
+  publicationtype = {C1},
+  timestamp       = {2025.04.24},
+  url             = {https://openreview.net/forum?id=6p74UyAdLa},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
